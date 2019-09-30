@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.container {
+    width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.container-box {
+	width: 100%;
+    overflow: auto;
+    margin: 10px auto;
+}
+
+/* 
+Start Header 
+------------
+*/
+.header {
+    text-align: center;
+}
+
+.menu ul {
+	font-size: 20px;
+    background-color: #102510;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+    overflow: auto;
+}
+
+.menu li {
+    display: initial;
+    margin-left: 40px;
+}
+
+.menu li a {
+    color: rgb(245, 240, 245);
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: rgb(255, 4, 4);
+    background-color: rgb(10, 0, 0);
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+/* 
+----------
+End Header 
+*/
+
+
+/* 
+Start Content
+--------------
+*/
+
+/* Start SpotLight */
+.spotlight {
+	background-image: url("../images/83424495-planning-travel-concept-thailand-passport-on-old-map.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+	height: 400px;
+    padding: 20px 0;
+ }
+
+.spotlight h1 {
+	background: rgb(5, 5, 5);
+	width: 400px;
+	height:auto;
+	text-align: auto;
+ 	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: rgb(255, 255, 255);
+}
+/* End SpotLight */
+
+/* Start Box 1 */
+.box-1 {
+    overflow: auto;
+    background-color: rgba(159, 159, 167, 0.411);
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Box 1 */
+
+/* Start Box 2 */
+.box-2 {
+    overflow: auto;
+    background-color: rgb(159, 159, 167, 0.411);
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Box 2 */
+
+/* Start Box 3 */
+.box-3 {
+    overflow: auto;
+    background-color: rgb(159, 159, 167, 0.411);
+    padding: 20px 0;
+    text-align: center;
+}
+/* End Box 3 */
+
+/* 
+--------------
+End Content
+*/
+
+/* 
+Start Footer
+--------------
+*/
+.footer {
+    overflow: auto;
+	background-color: #262626;
+    color: rgb(243, 237, 237);
+}
+
+.copyright {
+	color: #fff;
+	overflow: auto;
+	background: rgb(18, 12, 24);
+	text-align: center;
+	padding: 5px;
+}
+.col-1, .col-2, .col-3 {
+    float: left;
+    width: 30%;
+}
+
+.col-3 img {
+    width: 10%
+}
+
+.col-3 ul {
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.col-3 li {
+    display: inline;
+    margin-left: 40px
+}
+
+/* 
+--------------
+End Footer
+*/
