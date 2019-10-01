@@ -25,7 +25,7 @@ Start Header
 
 .menu ul {
 	font-size: 20px;
-    background-color: #102510;
+    background-color: #122a12;
     margin: auto;
     padding: 20px 0px 20px 0px;
     overflow: auto;
@@ -37,12 +37,12 @@ Start Header
 }
 
 .menu li a {
-    color: rgb(245, 240, 245);
+    color: rgb(29, 21, 29);
     text-decoration: none;
 }
 
 .menu li a:hover {
-    color: rgb(255, 4, 4);
+    color: rgb(59, 55, 55);
     background-color: rgb(10, 0, 0);
     margin: auto;
     padding: 20px 0px 20px 0px;
